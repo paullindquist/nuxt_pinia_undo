@@ -12,7 +12,6 @@ const useCounterStore = defineStore({
   actions: {
     increment() {
       this.count++;
-      console.log(this.count);
     },
   },
 });
